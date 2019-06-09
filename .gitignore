@@ -1,4 +1,5 @@
 **/.DS_Store
 /native_pip/build
+/native_pip/makefile
 **/.vscode/
 **/*.exe
