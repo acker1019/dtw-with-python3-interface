@@ -70,7 +70,7 @@ static PyObject *calDtw(PyObject *self, PyObject *args) {
 static PyMethodDef Methods[] = {
     {"calDtw", calDtw, METH_VARARGS,
      "Return the dtw distance between two given series."},
-    {NULL, NULL, 0, NULL}}; // PyMethodDef GreetMethods
+    {NULL, NULL, 0, NULL}}; // PyMethodDef Methods
 
 static struct PyModuleDef pydtw = {
     PyModuleDef_HEAD_INIT, "pydtw", /* name of module */
@@ -81,4 +81,4 @@ static struct PyModuleDef pydtw = {
 
 PyMODINIT_FUNC PyInit_pydtw(void) {
   return PyModule_Create(&pydtw);
-} // PyInit_greet
+} // PyInit_pydtw
